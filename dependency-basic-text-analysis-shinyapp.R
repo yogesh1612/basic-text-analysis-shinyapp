@@ -11,7 +11,7 @@ try(require(tidytext) || install.packages("tidytext"))
 try(require(dplyr) || install.packages("dplyr"))
 try(require(tidyr) || install.packages("tidyr"))
 try(require(igraph)|| install.packages("igraph"))
-
+try(require(visNetwork)|| install.packages('visNetwork'))
 
 library(shiny)
 library(text2vec)
