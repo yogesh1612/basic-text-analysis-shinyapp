@@ -13,7 +13,7 @@ library(magrittr)
 library(tidytext)
 library(dplyr)
 library(tidyr)
-
+library(visNetwork)
 
 shinyUI(fluidPage(
   
